@@ -1,2 +1,2 @@
 # disDeal's shenanigans
-(disDeal.github.io)
+(https://disdeal.github.io/)
