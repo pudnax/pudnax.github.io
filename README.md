@@ -1,2 +1,1 @@
-# disDeal.github.io
-host site
+# disDeal's shenanigans
