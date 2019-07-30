@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" name="viewport" />
+    <link rel="stylesheet" type="text/css" href="../styles/daily.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <style>
+        #draggable {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-right: 25px;
+            /* width: 15px; */
+            /* height: 150px; */
+            padding: 0.0em;
+        }
+        
+        #obj {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-right: 25px;
+            /* width: 15px; */
+            /* height: 150px; */
+            padding: 0.0em;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        'use strict';
+        document.addEventListener('keydown', (event) => {
+            const keyName = event.key;
+
+            if (keyName === 'h') {
+                var x = document.getElementById("obj");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+
+        }, false);
+
+        function hide() {
+            var x = document.getElementById("draggable");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function hide_all() {
+            var x = document.getElementById("obj");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        $('#button').click(function(e) {
+            e.preventDefault(); //to prevent standard click event
+            $('#wizard').toggle();
+        });
+
+        $(function() {
+            $("#draggable").draggable();
+        });
+        $(function() {
+            $("#obj").draggable();
+        });
+    </script>
+    <script>
+        var Module = {};
+        var __cargo_web = {};
+        Object.defineProperty(Module, 'canvas', {
+            get: function() {
+                if (__cargo_web.canvas) {
+                    return __cargo_web.canvas;
+                }
+
+                var canvas = document.createElement('canvas');
+                document.querySelector('body').appendChild(canvas);
+                __cargo_web.canvas = canvas;
+
+                return canvas;
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <script src="my_lyon.js"></script>
+    <div id="obj" draggable="true" style='float: right'>
+        <!-- <button onclick="hide()">Hide</button>
+        <button id="obj" onclick="hide_all()">Hide all</button> -->
+        <div id="draggable">
+            <h2 id="draggable"> Num: 1001 </h2>
+            <div id="obj" draggable="true" class="btn-group">
+                <input type="button" onclick="location.href='./index.html';" value="Prev" />
+                <input type="button" onclick="location.href='./index.html';" value="Next" />
+            </div>
+            <div draggable="true" id="obj">
+                <div id="obj" style="display: block;">
+                    <b>Press H to hide</b>
+                </div>
+                <div style="display: block;">
+                    <b>Description</b>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
