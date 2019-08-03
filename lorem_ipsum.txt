@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 
@@ -24,9 +26,7 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="../libs/support.js"></script>
 
-
 </head>
-
 <body>
     <script src="my_lyon.js"></script>
     <div id="obj" draggable="true" style='float: right'>
@@ -35,8 +35,10 @@
         <div id="draggable">
             <h2 id="draggable"> Num: 1001 </h2>
             <div id="obj" draggable="true" class="btn-group">
-                <input type="button" onclick="location.href='./1002.html';" value="Next" />
+                <input type="button" onclick="location.href='./10.html';" value="Next" />
+                <input type="button" onclick="location.href='./11.html';" value="Next" />
             </div>
+
             <div draggable="true" id="obj">
                 <div id="obj" style="display: block;">
                     <b>Press H to hide</b>
