@@ -86,7 +86,7 @@ static ORIGIN: &str = r#"
     </style>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    #<script src="../libs/support.js"></script>
+    <script src="../libs/support.js"></script>
 
 </head>
 <body>
