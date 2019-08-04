@@ -90,24 +90,36 @@ impl State for MainState {
         })
     }
 
-    fn event(&mut self, event: &Event, _window: &mut Window) -> Result<()> {
-        if let Event::MouseButton(_, state) = *event {
-            if state == quicksilver::input::ButtonState::Pressed {
-                self.walls = (0..5)
-                    .map(|_x| Boundary::random(WIDTH, HEIGHT))
-                    .collect::<Vec<Boundary>>();
-                self.walls.push(Boundary::new(0., 0., WIDTH, 0.));
-                self.walls.push(Boundary::new(0., 0., 0., HEIGHT));
-                self.walls.push(Boundary::new(WIDTH, 0., WIDTH, HEIGHT));
-                self.walls.push(Boundary::new(0., HEIGHT, WIDTH, HEIGHT));
-            }
-        }
-        Ok(())
-    }
+    // fn event(&mut self, event: &Event, _window: &mut Window) -> Result<()> {
+    //     if let Event::MouseButton(_, state) = *event {
+    //         if state == quicksilver::input::ButtonState::Pressed {
+    //             self.walls = (0..5)
+    //                 .map(|_x| Boundary::random(WIDTH, HEIGHT))
+    //                 .collect::<Vec<Boundary>>();
+    //             self.walls.push(Boundary::new(0., 0., WIDTH, 0.));
+    //             self.walls.push(Boundary::new(0., 0., 0., HEIGHT));
+    //             self.walls.push(Boundary::new(WIDTH, 0., WIDTH, HEIGHT));
+    //             self.walls.push(Boundary::new(0., HEIGHT, WIDTH, HEIGHT));
+    //         }
+    //     }
+    //     Ok(())
+    // }
 
     fn update(&mut self, window: &mut Window) -> Result<()> {
         window.set_max_updates(1);
         self.vertices = Vec::new();
+
+        if window.mouse()[quicksilver::input::MouseButton::Left]
+            == quicksilver::input::ButtonState::Pressed
+        {
+            self.walls = (0..5)
+                .map(|_x| Boundary::random(WIDTH, HEIGHT))
+                .collect::<Vec<Boundary>>();
+            self.walls.push(Boundary::new(0., 0., WIDTH, 0.));
+            self.walls.push(Boundary::new(0., 0., 0., HEIGHT));
+            self.walls.push(Boundary::new(WIDTH, 0., WIDTH, HEIGHT));
+            self.walls.push(Boundary::new(0., HEIGHT, WIDTH, HEIGHT));
+        }
 
         let mouse_pos = window.mouse().pos();
         self.particle = Particle::new(mouse_pos.x, mouse_pos.y);
@@ -128,23 +140,16 @@ impl State for MainState {
 
     fn draw(&mut self, window: &mut Window) -> Result<()> {
         window.clear(Color::BLACK)?;
-        // window.set_view(View::new(Rectangle::new(
-        //     (-WIDTH / 2., -HEIGHT / 2.),
-        //     (WIDTH, HEIGHT),
-        // )));
 
         self.particle.draw(window)?;
         for i in 0..self.lines.len() {
             self.draw_line(window, self.lines[i])?;
         }
-        //        for i in 0..self.particle.rays.len() {
-        //            self.draw_line(ctx, self.particle.rays[i].dir)?;
-        //        }
+
         for wall in &mut self.walls {
             wall.draw(window)?;
         }
 
-        // self.draw_contour(window);
         Ok(())
     }
 }
