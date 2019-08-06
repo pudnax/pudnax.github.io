@@ -17,7 +17,7 @@ use quicksilver::{
 
 const WIDTH: f32 = 800.;
 const HEIGHT: f32 = 300.;
-const DIGITS: f32 = 1.;
+const DIGITS: f32 = 4.;
 
 struct MainState {
     pos_pusher: Box,
