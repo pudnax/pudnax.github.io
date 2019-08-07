@@ -1,8 +1,9 @@
+<p>
  <img src=./pics/cardioid.png width="200" height="200">
  <img src=./pics/cardioid_3.png width="200" height="200">
  <img src=./pics/polar_perlin.gif width="200" height="200">
+</p>
  <img src=./pics/pi_collide_4.gif width="500" height="200">
-
 
 # Graphics Archive https://disdeal.github.io/
 
