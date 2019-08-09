@@ -12,4 +12,4 @@ path="./src/html_generator.rs"
 
 [dependencies]
 structopt = "0.2.18"
-indicatif = "*"
+indicatif = "0.11.0"
