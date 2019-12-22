@@ -27,7 +27,9 @@ func draw() {
 	var r = 80.
 	// x := 16 * r * math.Sin(phi) * math.Sin(phi) * math.Sin(phi)
 	// y := -r * (13*math.Cos(phi) - 5*math.Cos(2*phi) - 2*math.Cos(3*phi) - math.Cos(4*phi))
+
 	add := 0.1
+
 	x := r * (1 - math.Sin(phi)) * math.Cos(phi)
 	y := -r*(1-math.Sin(phi))*math.Sin(phi) - 50
 	vect = append(vect, [2]float64{x, y})
@@ -45,10 +47,10 @@ func draw() {
 		a += add
 		add *= -1
 	}
-	p.TextSize(24)
+	p.TextSize(30)
 	p.Stroke(constrain(inTime, 0, 255))
 	p.Fill(constrain(inTime, 0, 255))
-	p.Text("Мама", -40, 0)
+	p.Text("You", -25, 0)
 	// if phi > 2*math.Pi {
 	// 	phi = 0
 	// 	vect = vect[:0]

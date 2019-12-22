@@ -8076,7 +8076,7 @@ $packages["main"] = (function() {
 		processing.TextSize(new $Int64(0, 30));
 		processing.Stroke(new $Float64(constrain(inTime, 0, 255)), new sliceType$2([]));
 		processing.Fill(new $Float64(constrain(inTime, 0, 255)), new sliceType$3([]));
-		processing.Text("\xD0\x9C\xD0\xB0\xD0\xBC\xD0\xB0", new sliceType$1([new $Int(-40), new $Int(0)]));
+		processing.Text("You", new sliceType$1([new $Int(-25), new $Int(0)]));
 		inTime = inTime + (0.7);
 		$s = -1; return;
 		/* */ } return; } if ($f === undefined) { $f = { $blk: draw }; } $f._arg = _arg; $f._arg$1 = _arg$1; $f._q = _q; $f._q$1 = _q$1; $f._r = _r; $f._r$1 = _r$1; $f._r$2 = _r$2; $f.add = add; $f.check = check; $f.easing = easing; $f.i = i; $f.r = r; $f.x = x; $f.x$1 = x$1; $f.x$2 = x$2; $f.y = y; $f.$s = $s; $f.$r = $r; return $f;
