@@ -1,5 +1,7 @@
 package main
 
+
+
 import (
 	"math"
 
@@ -24,7 +26,7 @@ func draw() {
 	p.Background(0)
 	p.Stroke(255)
 	p.Translate(width/2, height/2)
-	var r = 80.
+	var r = 100.
 	// x := 16 * r * math.Sin(phi) * math.Sin(phi) * math.Sin(phi)
 	// y := -r * (13*math.Cos(phi) - 5*math.Cos(2*phi) - 2*math.Cos(3*phi) - math.Cos(4*phi))
 
@@ -49,8 +51,9 @@ func draw() {
 	}
 	p.TextSize(30)
 	p.Stroke(constrain(inTime, 0, 255))
-	p.Fill(constrain(inTime, 0, 255))
-	p.Text("You", -25, 0)
+	p.   Fill(constrain(inTime, 0, 255))
+	p.Text("Jasmine", -55, 0)
+	p.Text("Edynberg", -70, 40)
 	// if phi > 2*math.Pi {
 	// 	phi = 0
 	// 	vect = vect[:0]
