@@ -1,7 +1,5 @@
 package main
 
-
-
 import (
 	"math"
 
@@ -51,9 +49,9 @@ func draw() {
 	}
 	p.TextSize(30)
 	p.Stroke(constrain(inTime, 0, 255))
-	p.   Fill(constrain(inTime, 0, 255))
-	p.Text("Jasmine", -55, 0)
-	p.Text("Edynberg", -70, 40)
+	p.Fill(constrain(inTime, 0, 255))
+	p.Text("Cwyn", -40, 0)
+	p.Text("Annwyn", -55, 40)
 	// if phi > 2*math.Pi {
 	// 	phi = 0
 	// 	vect = vect[:0]
