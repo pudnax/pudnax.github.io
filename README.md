@@ -5,10 +5,10 @@
 </p>
  <img src=./pics/pi_collide_4.gif width="500" height="200">
 
-# Graphics Archive https://disdeal.github.io/
+# Graphics Archive https://pudnax.github.io/
 
 
-### Compiled files are located in "html" folder and can viewed on [site.](https://disdeal.github.io/)
+### Compiled files are located in "html" folder and can viewed on [site.](https://pudnax.github.io/)
 
 #### You can compile source files from "src" folder.
 
