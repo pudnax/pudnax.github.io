@@ -2,3 +2,5 @@
 **/*.rs.bk
 rls1565366348087.log
 rls*.log
+.vscode
+

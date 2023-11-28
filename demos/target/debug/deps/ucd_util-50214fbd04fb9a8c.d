@@ -1,0 +1,11 @@
+/home/komm/Work/Rust/pudnax.github.io/demos/target/debug/deps/libucd_util-50214fbd04fb9a8c.rmeta: /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/lib.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/hangul.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/ideograph.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/name.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/property.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/unicode_tables/mod.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/unicode_tables/jamo_short_name.rs
+
+/home/komm/Work/Rust/pudnax.github.io/demos/target/debug/deps/ucd_util-50214fbd04fb9a8c.d: /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/lib.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/hangul.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/ideograph.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/name.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/property.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/unicode_tables/mod.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/unicode_tables/jamo_short_name.rs
+
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/lib.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/hangul.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/ideograph.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/name.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/property.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/unicode_tables/mod.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ucd-util-0.1.5/src/unicode_tables/jamo_short_name.rs:

@@ -1,0 +1,12 @@
+/home/komm/Work/Rust/pudnax.github.io/demos/target/debug/deps/libansi_term-3b386636cbadd627.rmeta: /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/lib.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/ansi.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/style.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/difference.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/display.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/write.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/windows.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/debug.rs
+
+/home/komm/Work/Rust/pudnax.github.io/demos/target/debug/deps/ansi_term-3b386636cbadd627.d: /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/lib.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/ansi.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/style.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/difference.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/display.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/write.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/windows.rs /home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/debug.rs
+
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/lib.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/ansi.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/style.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/difference.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/display.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/write.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/windows.rs:
+/home/pudi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ansi_term-0.11.0/src/debug.rs:
